@@ -42,6 +42,7 @@ public class Lesson15 {
         int lc = lilliesCount(n);
         System.out.print("Количество кувшинок в день " + n + " составляет " + lc);
 
+        //TBD: Неплохо бы вынести в отдельную функцию
         if (lc % 10 == 1) {
             System.out.println(" штука");
         } else if ((lc % 10 > 2) && (lc % 10 < 5)) {
