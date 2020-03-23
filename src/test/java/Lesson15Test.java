@@ -1,6 +1,7 @@
 import org.junit.*;
 import static org.junit.Assert.*;
 
+//Commit-master-3: Нужно добавить еще тестов
 public class Lesson15Test {
     private class TestPair {
         TestPair (int input_data, int expected_result) {
